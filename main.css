@@ -98,6 +98,21 @@ color: #707070;
     text-align: center;
 }
 
+.text-style{
+    color: #707070;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.active{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;  
+    color: #FF5959;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 .input-area{
     margin-top: 60px;
     
@@ -175,4 +190,58 @@ color: #707070;
 
   .btn i:hover{
     font-size: 40px;
+  }
+
+
+
+  /* Updates section */
+  .updates{
+    width: 60%;
+    margin: 40px auto;
+    background: #FFF4D6;
+    height: 200px;
+  }
+
+  .email-input{
+    border: none;
+    outline: none;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    width: 275px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+
+  .subscribe-btn{
+    border: none;
+    outline: none;
+    width: 157px;
+    height: 48px;
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  /* footer style */
+  footer{
+    background-color:  #0B0D17;
+    text-align: center;
+    padding: 30px;
+  }
+
+  footer h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color:  #FF5959;
+    line-height: 83px;
+  }
+  footer p{
+    color: #D9DBE1;
+    font-size: 12px;
+    line-height: 24px
   }
