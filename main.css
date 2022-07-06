@@ -1,0 +1,98 @@
+/*global style*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.link-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 16px 20px;
+    background-color: rgb(255, 89, 89);
+    font-weight: 700;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Banner style start */
+.banner-title {
+    width: 50%;
+    text-align: center;
+}
+.banner{    
+    background-image: linear-gradient(rgba(35, 43, 56, 0.67),rgba(35, 43, 56, 0.67)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%
+}
+.banner-title h1{
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner-title p{
+    color: rgb(209, 209, 209);
+    margin-bottom: 50px;
+}
+
+
+/* Donate Today style */
+.row{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.donate-header{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.donate-header h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-header p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #707070;
+}
+
+.row-item{
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin-left: 20px;
+  
+}
+.row-item span{
+    text-align: center;
+}
+
+.input-area{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.input-style{
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #DADADA;
+    color: #B3B3B3;
+}
