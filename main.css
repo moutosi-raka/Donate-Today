@@ -21,6 +21,16 @@
     align-items: center;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;;
+}
+section{
+    margin-bottom: 130px;
+}
+
+
 /* Banner style start */
 .banner-title {
     width: 50%;
@@ -83,7 +93,7 @@ color: #707070;
 
 .input-area{
     margin-top: 60px;
-    margin-bottom: 40px;
+    
 }
 
 .input-style{
@@ -95,4 +105,34 @@ color: #707070;
     padding: 10px;
     border-bottom: 1px solid #DADADA;
     color: #B3B3B3;
+    margin-bottom: 40px;
 }
+
+/* Donate plan style */
+.plan-card{
+    width: 33.33%;
+    height: 270px;
+    padding: 54px 23px;
+    margin-left: 24px;
+    border-radius: 5px;
+}
+.card-1{
+    background: rgba(79, 157, 166, 0.1);
+} 
+.card-2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.card-3{
+    background: rgba(219, 153, 144, 0.1);
+}
+.plan-card h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icons{
+    width: 58.13px;
+    height: 49.77px;
+}
+
+/* Project Goal */
+
